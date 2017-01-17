@@ -1,8 +1,61 @@
-.e {
-  color: red;
-  font-size: 100px;
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+.caption {
+  color: orangered;
+  font-size: 6vw;
   font-family: "Source Sans Pro", "sans pro", "serif";
-  padding: 50px; }
+  padding: 50px;
+  line-height: 0.55; }
+  .caption-name {
+    color: blue;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", "sans pro", "serif";
+    margin-left: 2.5%; }
+
+.project-link {
+  width: 70%;
+  margin-bottom: 50px;
+  cursor: pointer;
+  background-color: aqua;
+  text-decoration: none; }
+
+.project-link:hover {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.project-date {
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Gloria Hallelujah", "sans pro", "serif";
+  color: #ffffff;
+  background-color: orangered; }
+
+.project-name {
+  padding: 50px 0;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-family: "Gloria Hallelujah", "sans pro", "serif"; }
+
+.project-number {
+  float: left;
+  padding: 20px 40px;
+  color: blue;
+  text-transform: uppercase;
+  font-family: "Gloria Hallelujah", "sans pro", "serif";
+  font-size: 2em;
+  font-weight: 600; }
+
+.project-technology {
+  float: right;
+  padding: 20px 40px;
+  color: blue;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Gloria Hallelujah", "sans pro", "serif"; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -48,6 +101,25 @@ img {
 
 h1, h2, h3, h4, h5, p {
   margin: 0; }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
 
 @font-face {
   font-family: 'Nexa-Bold';

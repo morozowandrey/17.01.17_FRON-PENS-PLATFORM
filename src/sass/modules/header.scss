@@ -1,6 +1,14 @@
-.e {
-    color: red;
-    font-size: 100px;
+.caption {
+    color: orangered;
+    font-size: 6vw;
     font-family: $main-ff;
     padding: 50px;
+    line-height: 0.55;
+
+    &-name {
+        color: blue;
+        text-transform: uppercase;
+        font-family: "Source Sans Pro", "sans pro", "serif";
+        margin-left: 2.5%;
+    }
 }

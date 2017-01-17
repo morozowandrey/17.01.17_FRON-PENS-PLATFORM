@@ -1,0 +1,57 @@
+.project {
+
+    &-link {
+        width: 70%;
+        margin-bottom: 50px;
+        cursor: pointer;
+        background-color: aqua;
+        text-decoration: none;
+    }
+
+    &-link:hover {
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    }
+
+    &-date {
+        padding: 20px;
+
+        text-align: center;
+        font-size: 2em;
+        font-weight: 600;
+        font-family: $secondary-ff;
+
+        color: $white;
+        background-color: orangered;
+    }
+    &-name {
+        padding: 50px 0;
+
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3em;
+        font-family: $secondary-ff;
+    }
+    &-number {
+        float: left;
+        padding: 20px 40px;
+
+        color: blue;
+        text-transform: uppercase;
+        font-family: $secondary-ff;
+        font-size: 2em;
+        font-weight: 600;
+    }
+    &-technology {
+        float: right;
+        padding: 20px 40px;
+
+        color: blue;
+        text-transform: uppercase;
+        font-size: 2em;
+        font-weight: 600;
+        font-family: $secondary-ff;
+    }
+}
