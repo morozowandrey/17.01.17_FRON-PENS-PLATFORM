@@ -1,6 +1,6 @@
 .caption {
     color: orangered;
-    font-size: 6vw;
+    font-size: 6em;
     font-family: $main-ff;
     padding: 50px;
     line-height: 0.55;
@@ -11,4 +11,46 @@
         font-family: "Source Sans Pro", "sans pro", "serif";
         margin-left: 2.5%;
     }
+}
+
+@media screen and (max-width: 1380px){
+    body {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 1065px){
+   .caption {
+       font-size: 5em;
+   } 
+}
+@media screen and (max-width: 900px){
+   .caption {
+       font-size: 4em;
+   } 
+}
+@media screen and (max-width: 750px){
+   .caption {
+       font-size: 3em;
+   }
+}
+@media screen and (max-width: 580px){
+   .caption {
+       font-size: 2.5em;
+       padding: 25px;
+   } 
+}
+@media screen and (max-width: 500px){
+   .caption {
+       font-size: 2em;
+   } 
+}
+@media screen and (max-width: 420px){
+   .caption {
+       font-size: 1.8em;
+   } 
+}
+@media screen and (max-width: 340px){
+   .caption {
+       font-size: 1.5em;
+   } 
 }

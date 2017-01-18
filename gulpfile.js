@@ -20,7 +20,7 @@ var gulp = require('gulp'),
 //});
 gulp.task('sass', function() {
     return gulp.src('src/sass/main.scss')
-    .pipe(sass())
+    .pipe(sass({includePaths: ['./sass']}))
     .pipe(autoprefixer(['last 15 versions','>1%','ie 8','ie 7'],{cascade:true}))
     .pipe(gulp.dest('src/css'))
     .pipe(browserSync.reload({stream:true}))
